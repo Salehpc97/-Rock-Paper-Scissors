@@ -1,0 +1,138 @@
+body {
+font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+.main-page {
+    padding-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    min-height: 550px;
+    width: 100%;
+    background-color:#2596be;
+}
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.header-logo {
+    display: flex;
+    width: auto;
+    height: 80px;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+.header-content-left-text1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.header-content-left-text2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    color:#f9faf8;
+}
+ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header-content-1 li{
+    color: #f9faf8;
+    background-color: #2596be;
+}
+.header-content-2 button {
+    margin-top: 35px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f9faf8;
+    border: 5px solid  #f9faf8;
+    background-color: #2596be;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #388eac;
+    transform: scale(1.05); /* Slightly enlarges the button */
+    transition: 0.3s ease-in-out;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 300px;
+    flex: 1;
+}
+.about-content {
+    font-size: 48px;
+    font-weight: bold;
+}
+.content3, .content7 {
+    display: flex;
+    padding-left: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.content3 li, .content7 li {
+    list-style-type: circle;
+    font-size: 28px;
+    padding: 0;
+    border: 0;
+}
+.content3 ul, .content7 ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footer-page {
+    background-color:#2596be;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: auto;
+    height: 40px;
+}
+.massege {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 20px auto;
+}
+.massege1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.footer-page div {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
