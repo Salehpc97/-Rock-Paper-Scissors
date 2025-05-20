@@ -120,7 +120,7 @@ function playRound(playerSelection) {
     } 
     // Navigate back to the main menu
     function back () {
-     window.location.href = 'Rock Paper Scissors.html';
+     window.location.href = 'index.html';
     }
     // Check game state and handle back button logic
     function checkGamePlayed(check) {
